@@ -1,4 +1,4 @@
-//const { template } = require('@babel/core')
+const { template } = require('@babel/core')
 
 function minMedMax(n1, n2, n3) {
   //code here
@@ -22,7 +22,7 @@ else if (n3 > n1 && n3 > n2 && n1 >= n2){
 }
   //return (`{ Min : ${Math.min(n1,n2,n3)} , Med : ${...} , Max : ${Math.max(n1,n2,n3)} } ` )
 }
-//module.exports = minMedMax
+module.exports = minMedMax
 //console.log(minMedMax(85,30,1))
 //console.log(minMedMax(10,0,20))
 //console.log(minMedMax(-5,0,10))
